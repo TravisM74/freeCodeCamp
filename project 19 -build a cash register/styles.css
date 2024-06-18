@@ -1,0 +1,22 @@
+#output-display{
+    background-color: rgb(241, 191, 130);
+}
+
+.inputs {
+    display:flex;
+    flex-direction: column;
+    max-width: 200px;
+    background-color: rgb(113, 204, 174);
+}
+.register {
+    background-color: rgb(163, 163, 243);
+}
+#item-cost {
+    background-color: black;
+    color:rgb(255, 255, 255)
+}
+#cash-in-draw {
+    background-color: blueviolet;
+    color: white;
+    list-style-type: none;
+}
