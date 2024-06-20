@@ -1,1 +1,1 @@
-CSS and HTML provided for each exercise.
+CSS and HTML provided for each exercise in JavaScript Algorithms and Data Structures (Beta).
