@@ -1,0 +1,33 @@
+.app-container {
+    max-width: 400px;
+    margin: auto;
+
+}
+H1 {
+    text-align: center;
+}
+.card-container{
+    padding: 20px;
+    background-color: rgb(185, 184, 185);
+    border-radius: 15px;
+    box-shadow: 10px 10px 2px rgb(95, 95, 95);
+
+}
+.pokemon-display {
+    
+}
+#pokemon-name{
+    text-align: center;
+    font-size: 3rem;
+}
+.stats {
+    display: block;
+    margin: 5px;
+    border-radius: 10px ;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+}
+#type {
+    
+}
