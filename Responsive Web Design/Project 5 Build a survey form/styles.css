@@ -1,0 +1,45 @@
+.container {
+    width: 70vw;
+    margin: 0 auto;
+    background-color: rgb(206, 205, 205);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+    padding: 20px;
+    
+}
+input, checkbox, textarea, button ,select {
+    background-color: rgb(255, 255, 255);
+    
+}
+#title {
+    text-align:center;
+}
+#description {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+fieldset {
+    margin: 20px 0px;
+}
+fieldset label #name , #email{
+    width: 90%;
+}
+
+fieldset label {
+    display:block;
+}
+#gender-set label{
+    display: inline;
+}
+#feedback {
+    width:100%;
+}
+#submit {
+    display: block;
+    width: 60%;
+    padding: 30px;
+    margin: 0px auto;
+    font-size: 30px;
+}

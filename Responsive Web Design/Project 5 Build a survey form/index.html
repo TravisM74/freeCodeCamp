@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+
+        <h1 id="title">Survey Form</h1>
+        <p id="description">United toy fares 2024 welcome you to our latest market exebition. 214 exibitors from various sepecialty groups proudly display their wares. </p>
+        <form id="survey-form" method="post" action="notreal.feedbacks.globalfairs.org">
+        <fieldset>
+            
+            <label for="name" id="name-label">Name: <input id="name" placeholder="Enter your Name.." type="text"></label>
+            <label for="email" id="email-label">Email: <input id="email"  placeholder="Enter your Email.." type="email"></label>
+            <label for="number" id="number-label">Age: <input id="number"  placeholder="Enter your Age.." type="number" min="13" max="120"></label> 
+        </fieldset>
+        <fieldset id="gender-set">
+            <legend>Gender</legend>
+            <label for="male">Male <input id="male" name="gender" type="radio"></label>
+            <label for="female">Female <input id="female" name="gender" type="radio"></label>
+            <label for="other">Other <input id="other" name="gender" type="radio"></label>
+            <label for="undisclosed">Dont wish to say <input checked id="undisclosed" name="gender" type="radio"></label>
+        </fieldset>
+        <fieldset>
+            <legend>Distance traveled</legend>
+            <select id="dropdown">
+                <option value="none">pick an option</option>
+                <option value="local">Local</option>
+                <option value="interstate">Interstate</option>
+                <option value="international">International</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Interests</legend>
+            <label for="games">Games <input type="checkbox" id="games" value="games"></label>
+            <label for="toys">Toys <input type="checkbox" id="toys" value="toys"></label>
+            <label for="minatures">Minatures <input type="checkbox" id="minatures" value="minatures"></label>
+            <label for="cards">Cards <input type="checkbox" id="cards" value="cards"></label>
+            <label for="collectables">Collectables <input type="checkbox" id="collectables" value="collectables"></label>
+            <label for="cars">Cars <input type="checkbox" id="cars" value="cars"></label>
+            <label for="action figures">Action figures <input type="checkbox" id="action figures" value="action figures"></label>
+        </fieldset>
+        <fieldset>
+            <legend>Feedback</legend>
+            <textarea id="feedback" rows="3" cols="30" placeholder="What did you think of the fair..."></textarea>
+        </fieldset>
+        <button id="submit" type="submit">Submit</button>
+    </form>
+</div>
+</body>
+</html>
