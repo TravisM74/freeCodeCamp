@@ -1,0 +1,47 @@
+
+main {
+    display: flex;
+    padding: 10px;
+    
+    
+  }
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    position: fixed;
+  
+  }
+  .textarea {
+    position: relative;
+    margin-left: 200px;
+    background-color: yellow;
+    padding: 0 10px;
+  }
+  
+  
+  #navbar header{
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 10px;
+    text-align: center;
+  }
+  #navbar a {
+    border-top : 1px solid black;
+    padding: 0 10px;
+  }
+  #navbar a:last-child{
+    border-bottom: 1px solid black;
+  }
+  header {
+    font-weight: bold;
+    font-size: 2em;
+  }
+  p {
+    padding : 0 25px;
+  }
+  @media (max-width: 700px){
+    .textarea{
+      background-color: yellow;
+    }
+  }
