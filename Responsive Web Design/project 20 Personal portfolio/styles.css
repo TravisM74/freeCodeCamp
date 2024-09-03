@@ -1,0 +1,125 @@
+
+:root {
+    --background-color1: rgb(37, 165, 250);
+    --background-color2: rgb(2, 2, 177);
+    --text-color: white;
+    --nav-height : 120px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background: linear-gradient(var(--background-color1), var(--background-color2));
+    width: 100vw;
+    height: var(--nav-height);
+    position:sticky;
+    top: 0px;
+    display:flex;
+    gap: 10px;
+    justify-content: right;
+    align-items: center;
+    
+}
+#navbar a {
+    color: var(--text-color);
+    font-size: 2rem;
+
+}
+#navbar a:last-child {
+    padding-right: 40px;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#welcome , #profile{
+    height:100vh;
+}
+
+#welcome h1 {
+    font-size: 5rem;
+}
+#welcome p {
+    width: 60%;
+    font-size: 1.5rem;
+    text-align: justify;
+    padding: 20px;
+    background-color: var(--background-color1);
+    color: var(--text-color);
+    border-radius: 10px;
+    box-shadow: 0 0 20px 10px var(--background-color2);
+    margin-top: 20px;
+
+}
+
+#projects {    
+    height: 100%;
+}
+
+#nav-space-fix {
+    height: var(--nav-height);
+}
+section h2 {
+    display: block;
+    padding: 50px;
+    font-size: 3rem;;
+    justify-content: left;
+}
+.projects-container {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 50px;
+}
+
+.project-card {
+    background-color: rgb(56, 133, 235);
+    padding: 20px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.project-card h3 {
+    font-size: 2rem;
+}
+.project-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#profile img {
+    border-radius: 60%;
+    box-shadow: 0 0 40px 20px var(--background-color2);
+}
+#profile a {
+    font-size: 3rem;
+    background-color: var(--background-color1);
+    color: var(--background-color2);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+}
+#profile div {
+    font-size: 2rem;
+}
+
+@media (max-width: 1295px) {
+    .projects-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 880px) {
+    .projects-container {
+        grid-template-columns: 1fr ;
+    }
+}
